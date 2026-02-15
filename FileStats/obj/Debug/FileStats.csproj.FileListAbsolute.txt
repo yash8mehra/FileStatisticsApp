@@ -1,0 +1,15 @@
+C:\Users\yash8\OneDrive\Desktop\CSCI293_C#\Assignment4\FileStatisticsApp\FileStats\obj\Debug\FileStats.csproj.AssemblyReference.cache
+C:\Users\yash8\OneDrive\Desktop\CSCI293_C#\Assignment4\FileStatisticsApp\FileStats\obj\Debug\MainWindow.g.cs
+C:\Users\yash8\OneDrive\Desktop\CSCI293_C#\Assignment4\FileStatisticsApp\FileStats\obj\Debug\App.g.cs
+C:\Users\yash8\OneDrive\Desktop\CSCI293_C#\Assignment4\FileStatisticsApp\FileStats\obj\Debug\FileStats_MarkupCompile.cache
+C:\Users\yash8\OneDrive\Desktop\CSCI293_C#\Assignment4\FileStatisticsApp\FileStats\obj\Debug\FileStats_MarkupCompile.lref
+C:\Users\yash8\OneDrive\Desktop\CSCI293_C#\Assignment4\FileStatisticsApp\FileStats\bin\Debug\FileStats.exe.config
+C:\Users\yash8\OneDrive\Desktop\CSCI293_C#\Assignment4\FileStatisticsApp\FileStats\bin\Debug\FileStats.exe
+C:\Users\yash8\OneDrive\Desktop\CSCI293_C#\Assignment4\FileStatisticsApp\FileStats\bin\Debug\FileStats.pdb
+C:\Users\yash8\OneDrive\Desktop\CSCI293_C#\Assignment4\FileStatisticsApp\FileStats\obj\Debug\MainWindow.baml
+C:\Users\yash8\OneDrive\Desktop\CSCI293_C#\Assignment4\FileStatisticsApp\FileStats\obj\Debug\FileStats.g.resources
+C:\Users\yash8\OneDrive\Desktop\CSCI293_C#\Assignment4\FileStatisticsApp\FileStats\obj\Debug\FileStats.Properties.Resources.resources
+C:\Users\yash8\OneDrive\Desktop\CSCI293_C#\Assignment4\FileStatisticsApp\FileStats\obj\Debug\FileStats.csproj.GenerateResource.cache
+C:\Users\yash8\OneDrive\Desktop\CSCI293_C#\Assignment4\FileStatisticsApp\FileStats\obj\Debug\FileStats.csproj.CoreCompileInputs.cache
+C:\Users\yash8\OneDrive\Desktop\CSCI293_C#\Assignment4\FileStatisticsApp\FileStats\obj\Debug\FileStats.exe
+C:\Users\yash8\OneDrive\Desktop\CSCI293_C#\Assignment4\FileStatisticsApp\FileStats\obj\Debug\FileStats.pdb
