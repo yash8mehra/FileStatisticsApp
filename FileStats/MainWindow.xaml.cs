@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -55,35 +56,68 @@ namespace FileStats
             if (filename == "" || !File.Exists(filename))
             {
                 lblValue.Content = "Error"; //not found
+                MessageBox.Show("Error Opening File");
                 return;
             }
 
             string[] lines = File.ReadAllLines(filename);
-            int[] numList = new int[lines.Length];
 
-            for (int i = 0; i < lines.Length; i++)
+            if (lines.Length == 0) //no lines
+            {
+                MessageBox.Show("Empty File");
+                return;
+            }
+
+            List<int> numList = new List<int>(); //array to list for dynamic sizing
+            int i = 0;
+            foreach (string line in lines)
+            {
+                try
+                {
+                    numList.Add(int.Parse(line));
+                    i++;
+                }
+                catch (Exception e)
+                {
+                    continue;
+                }
+            }
+            if (numList.Count == 0)
+            {
+                MessageBox.Show("Only strings in file");
+                return;
+            }
+
+
+            /*for (int i = 0; i < lines.Length; i++)
             {
                 numList[i] = int.Parse(lines[i]);
             }
+            Removed this because it worked with a fixed size and led to wrong averages
+            */
+
+
 
             min = numList[0];
             max = numList[0];
             double sum = 0;
 
-            for (int i = 0; i < numList.Length; i++)
+
+
+            for (int j = 0; j < numList.Count; j++) //Length to count because its a List not Array
             {
-                if (numList[i] < min)
+                if (numList[j] < min)
                 {
-                    min = numList[i];
+                    min = numList[j];
                 }
-                if (numList[i] > max)
+                if (numList[j] > max)
                 {
-                    max = numList[i];
+                    max = numList[j];
                 }
-                sum = sum + numList[i];
+                sum = sum + numList[j];
             }
 
-            avg = sum / numList.Length;
+            avg = sum / numList.Count;
 
             rbMin.IsEnabled = true;
             rbMax.IsEnabled = true;
